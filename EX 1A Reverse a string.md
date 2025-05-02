@@ -1,5 +1,5 @@
 # EX 1A Reverse a String
-## DATE:
+## DATE:18.02.2025
 ## AIM:
 To write a program to create a recursive function to reverse a string.
 
