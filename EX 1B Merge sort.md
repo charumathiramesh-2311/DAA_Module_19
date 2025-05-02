@@ -4,7 +4,7 @@
 To write a python program to sort the first half of the list using merge sort.
 
 ## Algorithm:
-
+```c
  1.Initialize an empty list arr
  2.Read an integer n (number of elements) from the user
  3.Repeat n times:
@@ -24,7 +24,7 @@ To write a python program to sort the first half of the list using merge sort.
  7.Sort only the first half of the list:
   • Call mergeSort(arr, 0, (n//2) - 1)
  8.Display the modified array
-    
+```    
 
 ## Program:
 ```
