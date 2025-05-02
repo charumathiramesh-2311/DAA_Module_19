@@ -3,7 +3,8 @@
 ## AIM:
 To write a python program to sort the first half of the list using merge sort.
 
-## Algorithm
+## Algorithm:
+
  1.Initialize an empty list arr
  2.Read an integer n (number of elements) from the user
  3.Repeat n times:
