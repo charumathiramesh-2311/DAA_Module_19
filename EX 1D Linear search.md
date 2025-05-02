@@ -1,28 +1,54 @@
 # EX 1D Linear search
-## DATE:
+## DATE:01.03.2025
 ## AIM:
 To write a python program for a search function with parameter list name and the value to be searched using string values.
 
 
 
-## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
-
-## Program:
+## Algorithm:
+```c
+1.Define a function search(List, n)
+  • For each element in List:
+    – If the current element is equal to n, return True
+  • If no match is found after the loop, return False
+2.Initialize an empty list List
+3.Read an integer x from the user (number of elements in the list)
+4.Repeat x times:
+  • Read a string from the user and append it to List
+5.Read the string n to be searched from the user
+6.Call the search(List, n) function
+  • If it returns True, print "Found"
+  • Else, print "Not Found"    
 ```
+## Program:
+```c
 /*
 Program to implement a search function with parameter list name and the value to be searched using string values.
-Developed by: 
-Register Number:  
+Developed by: charumathi R
+Register Number:  212222240021
 */
+def search(List,n):
+    for i in range(len(List)):
+        if(List[i]==n):
+            return True
+    return False
+
+List=[]
+x=int(input())
+for i in range(x):
+    List.append(input())
+
+n=input()
+
+if search(List,n):
+    print("Found")
+else:
+    print("Not Found")
 ```
 
 ## Output:
 
+![image](https://github.com/user-attachments/assets/a353fb0a-2a88-4e53-abdc-b7b76e923d37)
 
 
 ## Result:
